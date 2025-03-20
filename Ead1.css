@@ -1,0 +1,15 @@
+/* Faz a tabela rolar horizontalmente se precisar */
+table {
+    border-collapse: separate; /* Impede a fusão das bordas */
+    border-spacing: 10px; /* Define um espaçamento entre as células */
+    white-space: nowrap; /* Mantém o conteúdo da tabela em uma única linha */
+    overflow-x: auto;
+    display: block; /* Torna a tabela um bloco para permitir a rolagem */
+}
+
+/* Estilização das células para manter a estrutura */
+th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: left;
+}
