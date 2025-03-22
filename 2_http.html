@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocolo HTTP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="pagina-http">
+    <h1>O que é o protocolo HTTP?</h1>
+
+    <p>O HTTP (HyperText Transfer Protocol) é um protocolo usado para comunicação na web. Ele permite que navegadores e servidores troquem informações, carregando páginas, imagens e outros recursos.</p>
+
+    <h2>Como funciona o HTTP?</h2>
+    <p>Quando você acessa um site, seu navegador envia uma requisição HTTP para o servidor. O servidor processa essa requisição e devolve uma resposta com o conteúdo solicitado.</p>
+
+    <h3>Fluxo de comunicação HTTP</h3>
+    <img src="https___dev-to-uploads.s3.amazonaws.com_uploads_articles_ieaoz7eiwx6h6cey40f6.png" alt="Fluxo de requisição e resposta HTTP" width="600">
+    
+    <p>No fluxo acima:</p>
+    <ol>
+        <li>O navegador faz uma requisição HTTP ao servidor.</li>
+        <li>O servidor processa a requisição e busca os dados.</li>
+        <li>O servidor responde com o conteúdo solicitado.</li>
+        <li>O navegador exibe a página para o usuário.</li>
+    </ol>
+
+    <h2>Exemplo de requisição HTTP</h2>
+    <p>Quando acessamos um site, pode ocorrer uma requisição como esta:</p>
+
+    <pre>
+GET /index.html HTTP/1.1
+Host: www.exemplo.com
+User-Agent: Mozilla/5.0
+Accept: text/html
+    </pre>
+
+    <h2>Resposta do servidor</h2>
+    <p>O servidor então envia uma resposta:</p>
+
+    <pre>
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 1024
+    </pre>
+
+    <h3>O que são esses campos?</h3>
+    <img src="webflow-request-response.png" alt="Detalhes da requisição e resposta HTTP" width="600">
+
+    <p>Cada linha tem um significado:</p>
+    <ul>
+        <li><strong>Método:</strong> Indica a ação da requisição (ex: GET, POST).</li>
+        <li><strong>URL:</strong> O endereço do recurso solicitado.</li>
+        <li><strong>Versão do HTTP:</strong> Define o protocolo usado (ex: HTTP/1.1).</li>
+        <li><strong>Cabeçalhos:</strong> Informações adicionais (ex: tipo de navegador).</li>
+        <li><strong>Corpo:</strong> Se houver dados a serem enviados, ficam aqui.</li>
+    </ul>
+
+    <h2>Exemplo visual de uma requisição capturada</h2>
+    <img src="http_request_example.png" alt="Exemplo real de requisição HTTP capturada" width="600">
+
+    <h3>Resumo</h3>
+    <p>O HTTP é a base da web. Ele permite que os navegadores se comuniquem com os servidores para carregar páginas e trocar informações.</p>
+
+    <a href="1.html">Voltar para a Página Inicial</a>
+
+</body>
+</html>

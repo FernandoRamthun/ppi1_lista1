@@ -1,0 +1,135 @@
+/* Corpo da pagina*/
+body {
+    background-color: #000; /* Fundo preto */
+    color: #f4f4f4; /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte geral */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Títulos (h1, h2, h3) */
+h1, h2, h3 {
+    color: #fff; /* Cor do título (branco) */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Parágrafos e listas */
+p, ol, ul {
+    text-align: center;
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+/* Imagens */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Código de requisição/resposta */
+code {
+    background-color: transparent;
+    color: #e74c3c; /* Cor para destacar o código */
+    font-family: monospace;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Links */
+a {
+    color: #3498db; /* Cor do link */
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Estilo de formulário */
+form {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #34495e; /* Fundo do formulário */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; /* Labels em branco */
+}
+
+/* Campos de texto  */
+input[type="text"], input[type="email"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #34495e; /* Fundo escuro */
+    color: #fff;
+    box-sizing: border-box;
+}
+
+/* Botões */
+button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #34495e; /* Cabeçalho escuro */
+    color: #fff;
+}
+
+td {
+    background-color: #2c3e50; /* Células da tabela */
+    color: #fff;
+}
