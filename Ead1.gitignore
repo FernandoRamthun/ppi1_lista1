@@ -1,9 +1,0 @@
-# Ignorar arquivos do sistema do Windows
-Thumbs.db
-Desktop.ini
-.vscode/
-.gitconfig
-*.log
-
-# Ignorar pastas e arquivos de cache
-AppData/
